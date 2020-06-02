@@ -259,7 +259,7 @@ class ProgressiveImage extends Component {
     const { className, presrc } = this.props;
     const { ready } = this.state;
     return (
-      <ImageWrapper className={className} innerRef={(wrapper) => { this._wrapper = wrapper; }}>
+      <ImageWrapper className={className} ref={(wrapper) => { this._wrapper = wrapper; }}>
         {ready ? this.renderImage() : null}
         {presrc && this.renderLoadingImage()}
       </ImageWrapper>
