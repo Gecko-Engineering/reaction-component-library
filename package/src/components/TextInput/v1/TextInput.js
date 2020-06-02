@@ -101,8 +101,6 @@ const StyledInput = styled.input`
   }
 `;
 
-const Textarea = StyledInput.withComponent("textarea");
-
 const StyledTextarea = styled(Textarea)`
   -webkit-font-smoothing: antialiased;
   background-color: ${applyThemeVariant("Input.backgroundColor")};
@@ -617,6 +615,7 @@ class TextInput extends Component {
         value={value}
       >
         <StyledInput
+          as="textarea"
           className={className}
           errors={errors}
           hasBeenValidated={hasBeenValidated}
