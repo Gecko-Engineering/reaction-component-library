@@ -89,7 +89,7 @@
     "suiteName": "jest-tests"
   },
   "dependencies": {
-    "@babel/runtime": "~7.5.5",
+    "@babel/runtime": "~7.15.4",
     "@reactioncommerce/components-context": "~1.2.0",
     "core-js": "^3.2.1",
     "lodash": "~4.17.15",
