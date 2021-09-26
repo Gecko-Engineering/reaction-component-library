@@ -3404,9 +3404,10 @@ core-js@^3.0.0:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.1.4.tgz#3a2837fc48e582e1ae25907afcd6cf03b0cc7a07"
 
-core-js@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.2.1.tgz#cd41f38534da6cc59f7db050fe67307de9868b09"
+core-js@^3.17.2:
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.18.0.tgz#9af3f4a6df9ba3428a3fb1b171f1503b3f40cc49"
+  integrity sha512-WJeQqq6jOYgVgg4NrXKL0KLQhi0CT4ZOCvFL+3CQ5o7I6J8HkT5wd53EadMfqTDp1so/MT1J+w2ujhWcCJtN7w==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -8684,7 +8685,6 @@ npm@^6.8.0:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
-    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -8699,7 +8699,6 @@ npm@^6.8.0:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.5"
     iferr "^1.0.2"
-    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -8718,14 +8717,8 @@ npm@^6.8.0:
     libnpx "^10.2.0"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
-    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
-    lodash._bindcallback "*"
-    lodash._cacheindexof "*"
-    lodash._createcache "*"
-    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
-    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
