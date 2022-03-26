@@ -24,7 +24,8 @@
     "test": "jest package/src",
     "test:watch": "jest --watch package/src",
     "test:file": "jest --no-cache --watch --coverage=false",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "snyk-protect",
+    "prepare": "yarn run snyk-protect"
   },
   "eslintConfig": {
     "extends": [
@@ -100,7 +101,8 @@
     "react-stripe-elements": "~2.0.1",
     "reacto-form": "~1.4.0",
     "regenerator-runtime": "^0.13.3",
-    "styled-components": "~3.3.3"
+    "styled-components": "~3.3.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "~7.5.5",
@@ -167,7 +169,6 @@
     "replace-in-files": "~1.1.4",
     "rimraf": "~2.6.3",
     "semantic-release": "~15.13.3",
-    "snyk": "~1.89.1",
     "style-loader": "~0.19.0",
     "sw-precache-webpack-plugin": "~0.11.4",
     "url-loader": "~0.6.2",

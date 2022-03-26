@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.22.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:hoek:20180212':
@@ -78,4 +78,8 @@ ignore:
     - libnpx > yargs > os-locale > mem:
         reason: No update available
         expires: '2019-09-19T20:03:04.825Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - reacto-form > lodash:
+        patched: '2022-03-26T01:56:59.910Z'
